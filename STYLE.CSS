@@ -1,0 +1,146 @@
+.logo{
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.logo:hover{
+    transform: scale(1.2);
+}
+#nav{
+
+    padding: 10px 10px;
+    
+}
+
+.container{
+    max-width: 1100px;
+}
+
+header{
+    background-image: url('assets/header.png');
+    display: flexbox;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 110vh;
+    position: relative;
+}
+.btn{
+    background-color: coral;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-weight: bold;
+    color: white;
+    padding: 9px 20px;
+    border: none;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: rgb(132, 177, 216);
+    color: rgb(0, 0, 0);
+    transform: scale(1.2);  
+}
+.title{
+  color:rgb(85, 2, 141); 
+ position: absolute;
+ top: 50%;
+ transform: translateY(-50%);
+}
+h2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    line-height: .9;
+    
+}
+h4{
+    font-size: 20px;
+    line-height: 1.2;
+    /* flex-basis: 50%; */
+}
+
+#row-Nuestros_Productos{
+    background-color: darksalmon;
+}
+.row{
+    margin: 0;
+}
+#row-Nuestros_Productos img{
+    height: 250px;
+    width: 250px;
+    transition:all 0.3s;
+    border-radius: 50%;
+    padding: 10px 10px 10px 10px;
+}
+#row-Nuestros_Productos img:hover{
+    transform: scale(1.1);
+}
+ #Nosotros{
+    background-color: rgb(233, 233, 233);
+
+} 
+#Nosotros img{
+   transition: all 0.9s;
+   transform: translateX(-10%);
+} 
+#Nosotros img:hover{
+    transform: none;
+}
+#Nosotros p{
+    font-size: 18px;
+    text-align: justify;
+
+}
+#Nosotros h1{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 65px;
+}
+.card-title{
+    text-align: center;
+    font-size: 20px;
+}
+.card-text{
+    text-align: justify;
+}
+#form{
+    background-image: url('assets/form.png');
+    
+
+}
+#formGroupExampleInput{
+    opacity: 0.6;
+    
+}
+#formGroupExampleInput:hover{
+    opacity: 1;
+    background-color:white;
+}
+#Footer{
+    background-color: black;
+    padding: 10px 10px;
+    
+}
+#Footer img{
+    cursor: pointer;
+    transition: all 0.3s;
+    width: 80px;
+    height: 80px;
+   background-position: center;
+    
+}
+#Footer img:hover{
+    transform: scale(1.2);
+}
+#Footer iframe{
+    height: 180px;
+    width:  350px;
+}
+#Foter h6{
+    text-align: center;
+}
