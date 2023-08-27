@@ -9,6 +9,7 @@
 
     padding: 10px 10px;
     
+    
 }
 
 .container{
@@ -16,7 +17,7 @@
 }
 
 header{
-    background-image: url('assets/header.png');
+    background-image: url('../assets/header.png');
     display: flexbox;
     max-width: 100%;
     background-repeat: no-repeat;
